@@ -1,5 +1,7 @@
 package edu.ufp.inf.lp2_aed2_project;
 
+import edu.ufp.inf.lp2_aed2_project.Conts.StationType;
+
 public class Station {
 
   public Double latitude;
@@ -16,6 +18,10 @@ public class Station {
     this.id = id;
     this.type = type;
   }
+
+    public Station() {
+
+    }
 
   public Double getLatitude() {
     return latitude;
